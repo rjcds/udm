@@ -1,17 +1,17 @@
-#!/bin/sh
+#!/bin/bash
 
-userName = "root"
-UDMServer = "192.168.1.1"
-backupsToKeep = 7
-backupPath = "/volume1/homes/admin/unifi_backups"
+userName="root"
+UDMServer="192.168.1.1"
+backupsToKeep=7
+backupPath="/volume1/homes/admin/unifi_backups"
 
 # https://github.com/akusei/pushover-bash
-pushover_userkey = 
-pushover_appkey = 
-pushover_device = 
-pushover_priority = 
-pushover_title = "UDM backup"
-pushover_message = "Error backing up UDM config files"
+pushover_userkey= 
+pushover_appkey= 
+pushover_device= 
+pushover_priority= 
+pushover_title="UDM backup"
+pushover_message="Error backing up UDM config files"
 
 
 
