@@ -8,6 +8,8 @@ This script will copy UDM auto-backups (stored locally on the UDM) to the server
 
 Use a cron job (task scheduler on the NAS) to run on a schedule
 
+The backup path on my NAS is then synced to an S3 bucket etc
+
 
 ## Requirements
 - pushover.sh (https://github.com/akusei/pushover-bash) needs to be in the same directory as this script
